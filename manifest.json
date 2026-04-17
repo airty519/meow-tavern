@@ -1,8 +1,10 @@
 {
-    "name": "My First ST Plugin",
-    "display_name": "我的專屬測試插件",
-    "description": "這是一個用來測試安裝的 ST 插件。",
+    "name": "Meow Card Maker",
+    "display_name": "喵喵製卡機",
+    "description": "透過簡單關鍵字，自動呼叫 LLM 生成完整的角色卡設定。",
     "version": "1.0.0",
     "author": "airty519",
-    "main": "index.js"
+    "js": "index.js",
+    "css": "style.css",
+    "optional": false
 }
