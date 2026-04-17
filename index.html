@@ -1,2 +1,13 @@
-// 當 SillyTavern 載入這個插件時，這段代碼就會執行
-console.log("太棒了！我的插件成功載入啦！");
+<div id="meow_card_maker_container" class="st-extension-block">
+    <div class="meow-header">
+        <h3>🐱 喵喵製卡機</h3>
+    </div>
+    <div class="meow-body">
+        <label for="meow_keyword_input">輸入角色關鍵字：</label>
+        <textarea id="meow_keyword_input" placeholder="例如：白髮紅眼、傲嬌、喜歡吃甜食的精靈魔法使..." rows="3"></textarea>
+        
+        <button id="meow_btn_generate" class="menu_button">✨ 自動生成角色</button>
+        
+        <div id="meow_status_text" style="display:none; margin-top: 10px;"></div>
+    </div>
+</div>
